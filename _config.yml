@@ -1,0 +1,43 @@
+# Jekyll configuration for GitHub Pages
+# This forces GitHub to treat this as a Pages site
+
+title: Forwords Library Café
+description: Where books meet coffee
+url: https://oleatrades.github.io/forwords-cafe-website
+
+# GitHub Pages settings
+github:
+  is_project_page: true
+  source:
+    branch: main
+    path: /
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .git
+  - .github
+  - node_modules
+  - vendor
