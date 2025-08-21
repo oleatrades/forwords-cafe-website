@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Forwords Library Café</title>
+  <link rel="stylesheet" href="style.css?v=2.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/10.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo">Forwords</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section" style="margin-top: 80px;">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get in Touch</h2>
+        <p>Ready to experience the perfect blend of literature and coffee? We'd love to hear from you!</p>
+      </div>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3><i class="fas fa-map-marker-alt"></i> Visit Us</h3>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Address</strong><br>
+              Forwords Library Café<br>
+              Marine Drive, Kochi<br>
+              Kerala 682001, India
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <strong>Opening Hours</strong><br>
+              Monday - Friday: 7:00 AM - 10:00 PM<br>
+              Saturday - Sunday: 8:00 AM - 11:00 PM
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <strong>Phone</strong><br>
+              +91 98765 43210<br>
+              +91 98765 43211
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email</strong><br>
+              hello@forwords.cafe<br>
+              reservations@forwords.cafe
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-wifi"></i>
+            <div>
+              <strong>Amenities</strong><br>
+              Free WiFi • Power Outlets<br>
+              Quiet Reading Areas • Meeting Rooms
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3><i class="fas fa-calendar-alt"></i> Book a Table</h3>
+          <form>
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            
+            <div class="form-group">
+              <label for="date">Preferred Date *</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="time">Preferred Time *</label>
+              <input type="time" id="time" name="time" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="guests">Number of Guests *</label>
+              <select id="guests" name="guests" required>
+                <option value="">Select number of guests</option>
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4 People</option>
+                <option value="5">5 People</option>
+                <option value="6+">6+ People</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="occasion">Special Occasion (Optional)</label>
+              <input type="text" id="occasion" name="occasion" placeholder="e.g., Birthday, Anniversary, Business Meeting">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Additional Requests</label>
+              <textarea id="message" name="message" rows="4" placeholder="Any special requests or dietary requirements?"></textarea>
+            </div>
+            
+            <button type="submit" class="btn">
+              <i class="fas fa-paper-plane"></i> Send Booking Request
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 4rem; padding: 3rem; background: white; border-radius: 20px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);">
+        <h3 style="color: var(--color-brown-dark); margin-bottom: 1.5rem;">Can't Visit Us?</h3>
+        <p style="margin-bottom: 2rem; font-size: 1.1rem;">We also offer coffee bean delivery, book recommendations, and virtual coffee tasting sessions. Let's stay connected!</p>
+        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+          <a href="https://wa.me/919876543210" target="_blank" class="btn" style="background: #25d366;">
+            <i class="fab fa-whatsapp"></i> WhatsApp Us
+          </a>
+          <a href="mailto:hello@forwords.cafe" class="btn">
+            <i class="fas fa-envelope"></i> Send Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Forwords Library Café | Let's start a conversation</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <div class="whatsapp-button">
+    <a href="https://wa.me/919876543210" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+  </div>
+</body>
+</html>
