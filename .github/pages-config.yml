@@ -1,0 +1,14 @@
+# Force GitHub Pages activation
+# This file tells GitHub this is a Pages site
+
+pages:
+  source:
+    branch: main
+    path: /
+  
+  build:
+    command: echo "Static site - no build needed"
+    output: .
+    
+  domain: oleatrades.github.io
+  custom_domain: false
