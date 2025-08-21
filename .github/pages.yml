@@ -1,0 +1,12 @@
+# GitHub Pages configuration
+# This file helps GitHub recognize this as a Pages site
+
+# Source branch for Pages
+source:
+  branch: main
+  path: /
+
+# Build settings
+build:
+  command: echo "No build required for static site"
+  output: .
